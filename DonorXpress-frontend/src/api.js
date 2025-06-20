@@ -1,8 +1,7 @@
-// api.js
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // Make sure this matches your backend
+  baseURL: 'http://localhost:5000/api', 
 });
 
 export const getDonors = (filters) => API.get('/donors', { params: filters });

@@ -1,4 +1,3 @@
-// components/DonorList.jsx
 import { toggleAvailability } from "../api";
 
 export default function DonorList({ donors, onRefresh }) {

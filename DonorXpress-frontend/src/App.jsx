@@ -1,4 +1,3 @@
-// App.jsx
 import { useEffect, useState } from "react";
 import { getDonors } from "./api";
 import DonorForm from "./components/DonorForm";
