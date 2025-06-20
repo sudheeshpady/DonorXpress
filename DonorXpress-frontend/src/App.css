@@ -79,7 +79,7 @@
 .donor-list-card {
   margin-top: 1rem;
   overflow-x: auto;
-  padding: 2.5rem;
+  padding: 3.5rem;
 }
 
 @media (max-width: 768px) {
@@ -131,4 +131,22 @@ label {
   color: #d73030;
   font-size: 0.9rem;
   
+}
+/* App.css */
+/* ... (keep your existing styles) ... */
+
+.donor-list-card {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donor-list-card h2 {
+    color: #d32f2f;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ffcdd2;
 }
