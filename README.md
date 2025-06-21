@@ -3,7 +3,7 @@
 A small-scale MERN stack project to register blood donors, filter by blood group, and mark availability.
 
 ---
-<p align="center" fontsize="large">
+<p align="center">
 <a href="https://donor-xpress.vercel.app/"> Visit This App</a></p>
 
 
