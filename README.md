@@ -9,13 +9,7 @@ A small-scale MERN stack project to register blood donors, filter by blood group
 #  Project Preview
 ![Project Preview](DonorXpress-frontend/Shot.png)
 
-## 📁 Project Structure
 
-DonorXpress/
-├── DonorXpress-frontend/ # Vite + React app
-├── DonorXpress-backend/ # Express + MongoDB API
-
----
 
 ## ⚙️ Backend Setup (`DonorXpress-backend`)
 
