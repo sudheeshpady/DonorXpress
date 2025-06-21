@@ -102,7 +102,6 @@
 
 input,
 select {
-    width: 100%;
     padding: 0.7rem;
     margin-bottom: 1rem;
     border: 1px solid #ddd;
@@ -110,8 +109,14 @@ select {
     font-size: 0.95rem;
     color: black;
     background: var(--light-gray);
+    overflow-x: hidden;
 }
-
+input {
+    width: 95%;
+}
+select {
+    width: 100%;
+}
 button {
     background: var(--blood-red);
     color: white;
@@ -122,6 +127,8 @@ button {
     font-size: 0.95rem;
     transition: background 0.2s;
     width: 100%;
+    /* display: block;
+    max-width: 500px; */
 }
 
 button:hover {
