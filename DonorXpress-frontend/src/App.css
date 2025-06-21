@@ -133,6 +133,9 @@ button {
 
 button:hover {
     background: var(--dark-red);
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+    
 }
 
 label {
@@ -141,4 +144,29 @@ label {
     font-weight: 500;
     color: #d73030;
     font-size: 0.9rem;
+}
+#logocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    height: 10vh;
+    width: 10vw;
+    margin-left: 43%;
+
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.form-card:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+.filter-card:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
 }
