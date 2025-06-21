@@ -53,12 +53,7 @@ function App() {
             <div className="app-container">
                 <header className="app-header">
                     <div id="logocontainer">
-                        <img
-                            id="logo"
-                            src="./public/donorXPressLogo.jpg"
-                            alt="logo"
-                        />
-
+                        <img id="logo" src="/donorXPressLogo.jpg" alt="logo" />
                         <h1>DonorXpress</h1>
                     </div>
                     <p className="app-subtitle">
