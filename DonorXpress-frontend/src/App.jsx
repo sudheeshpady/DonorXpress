@@ -45,9 +45,9 @@ function App() {
         <div className="app-wrapper">
             <div className="app-container">
                 <header className="app-header">
-                    <h1>Blood Donor Finder</h1>
+                    <h1>DonorXpress</h1>
                     <p className="app-subtitle">
-                        Connecting donors with those in need
+                        Connecting blood donors with those in need
                     </p>
                 </header>
 
