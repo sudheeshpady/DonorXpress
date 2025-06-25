@@ -60,7 +60,7 @@ npm install
 npm run dev
 ```
 
-🚀 Features
+## 🚀 Features
 ✅ Register blood donors (name, blood group, location, availability)
 
 🔍 Filter donors by blood group
@@ -68,6 +68,7 @@ npm run dev
 🔄 Toggle donor availability
 
 ⚡ Fast and lightweight (Vite, Express)
+
 
 | Method | Endpoint                | Parameters/Body                          | Description                     |
 |--------|-------------------------|------------------------------------------|---------------------------------|
@@ -81,3 +82,5 @@ npm run dev
 - [Varadaraj](https://github.com/varadaraj)
 - [Yajnesh](https://github.com/yajnesh)
 - [Sohan](https://github.com/sohan)
+  
+<p align="center"> <b>💖 Donate Blood, Save Lives!</b> </p> 
