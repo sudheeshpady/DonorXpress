@@ -1,23 +1,42 @@
-# 🩸 DonorXpress – Blood Donor Finder
+# 🩸 DonorXpress – Blood Donor Finder  
 
-A small-scale MERN stack project to register blood donors, filter by blood group, and mark availability.
+A **MERN stack** application to connect blood donors with those in need. Register donors, filter by blood group, and manage availability status seamlessly.  
 
 ---
+
 <p align="center">
-<a href="https://donor-xpress.vercel.app/"> Visit This App</a></p>
+  <a href="https://donor-xpress.vercel.app/">
+    <img src="https://img.shields.io/badge/Visit%20App-Live%20Demo-brightgreen?style=for-the-badge" alt="Live Demo">
+  </a>
+</p>
 
-#  Project Preview
-![Project Preview](DonorXpress-frontend/Shot.png)
+---
 
+## ✨ Features  
 
+✅ **Donor Registration** – Add donors with details like name, blood group, location, and availability.  
+🔍 **Smart Filtering** – Find donors by specific blood groups (e.g., A+, O-, AB+).  
+🔄 **Availability Toggle** – Easily update donor status (Available/Unavailable).  
+⚡ **Blazing Fast** – Built with **Vite + React** (Frontend) and **Express + MongoDB** (Backend).  
+📱 **Responsive UI** – Works smoothly on all devices.  
 
-## ⚙️ Backend Setup (`DonorXpress-backend`)
+---
 
-1. **Install dependencies**
-    ```bash
-    cd DonorXpress-backend
-    npm install
-    ```
+## 🖥️ Project Preview  
+
+![Project Preview](DonorXpress-frontend/Shot.png)  
+
+---
+
+## 🛠️ Installation  
+
+### **Backend Setup** (`DonorXpress-backend`)  
+
+1. **Navigate & Install Dependencies**  
+   ```bash
+   cd DonorXpress-backend
+   npm install```
+   
 2. **Create .env file**
    MONGO_URI=mongodb://localhost:27017/donors
 
@@ -50,16 +69,15 @@ npm run dev
 
 ⚡ Fast and lightweight (Vite, Express)
 
-📦 API Endpoints
-Add a new donor:
-POST /api/donors
-Filter donors by blood group:
-GET /api/donors?group=A+
-Update availability status:
-PATCH /api/donors/:id
+| Method | Endpoint                | Parameters/Body                          | Description                     |
+|--------|-------------------------|------------------------------------------|---------------------------------|
+| POST   | `/api/donors`           | `{name, bloodGroup, location, available}` | Register new donor              |
+| GET    | `/api/donors?group=A+`  | `group: bloodGroup`                      | Filter by blood type            |
+| PATCH  | `/api/donors/:id`       | `{available: boolean}`                   | Toggle availability status      |
 
-owner :
-Sudheesh 
-varadaraj
-yajnesh
-Sohan
+## 👥 Contributors
+
+- [Sudheesh](https://github.com/sudheesh)
+- [Varadaraj](https://github.com/varadaraj)
+- [Yajnesh](https://github.com/yajnesh)
+- [Sohan](https://github.com/sohan)
